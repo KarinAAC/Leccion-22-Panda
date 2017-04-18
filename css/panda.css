@@ -1,0 +1,210 @@
+/**/
+*{
+  box-sizing: border-box;
+}
+
+/* estilos al body */
+body{
+  background-color:#1d1a05 ;
+  font-family: "Arial";
+}
+/* Estilos al menú */
+ul{
+  background-color: #ca3c25;
+}
+
+li{
+  display: inline-block;
+  padding: 15px;
+  list-style: none;
+  padding-left: 1px;
+}
+
+#liuno{
+  padding-left: 152px;
+  margin-left: -60px;
+}
+
+a{
+  color: whitesmoke;
+  text-decoration: underline;
+  padding: 10px;
+}
+/* Dándole estilo a los titulos y su contenedor */
+#contenedor-titulo{
+  display: block;
+}
+
+#titulo1{
+  display: inline-block;
+  background-color: #ca3c25;
+  color: whitesmoke;
+  margin-left: 150px;
+  padding-left: 120px;
+  padding-right: 120px;
+  margin-top: 40px;
+  cursor: pointer;
+  margin-bottom: 15px;
+
+}
+
+#titulo2{
+  display: inline-block;
+  background-color: #ca3c25;
+  color: whitesmoke;
+  padding-left: 120px;
+  padding-right: 120px;
+  cursor: pointer;
+}
+
+#titulo1, #titulo2{
+  opacity: 1;
+  visibility:visible;
+}
+
+#titulo3{
+  display: inline-block;
+  background-color:#ca3c25;
+  color: whitesmoke;
+  padding-left: 120px;
+  padding-right: 120px;
+  cursor: pointer;
+}
+/* clase que funcione con toggle en js */
+.aparecer{
+  opacity: 0;
+  visibility: hidden;
+}
+
+/* Dándole estilos al modal que contiene al span y así mismo */
+#modal1{
+  display: inline-block;
+  width: 200px;
+  height: 150px;
+  margin-left: 155px;
+  position: relative;
+}
+
+#modal1 span{
+  font-size: 16px;
+  position: absolute;
+  left: 6px;
+  padding-top: 15px;
+  display: inline-block;
+  cursor: pointer;
+  color: white;
+}
+
+#modal2{
+  display: inline-block;
+  width: 200px;
+  height: 150px;
+  position: relative;
+}
+
+#modal2 span{
+  font-size: 15px;
+  position: absolute;
+  left:6px;
+  padding-top: 4px;
+  display: inline-block;
+  cursor: pointer;
+  color: white;
+}
+
+#modal3{
+  display: inline-block;
+  width: 200px;
+  height: 150px;
+  position: relative;
+}
+
+#modal3 span{
+  font-size: 15px;
+  position: absolute;
+  left: 6px;
+  padding-top: 4px;
+  display: inline-block;
+  cursor: pointer;
+  color: white;
+}
+
+#modal4{
+  display: inline-block;
+  width: 200px;
+  height: 150px;
+  position: relative;
+}
+
+#modal4 span{
+  font-size: 15px;
+  position: absolute;
+  left: 6px;
+  padding-top: 4px;
+  display: inline-block;
+  cursor: pointer;
+  color: white;
+}
+/* Dandole estilos a las imágenes */
+#panda1{
+  display: inline-block;
+  width: 97%;
+  height: 182px;
+  margin-top: 12px;
+  border: 6px solid #C0C0C0;
+}
+
+#panda2{
+  display: inline-block;
+  width: 97%;
+  height: 182px;
+  border: 6px solid #C0C0C0;
+}
+
+#panda3{
+  display: inline-block;
+  width: 97%;
+  height: 182px;
+  border: 6px solid #C0C0C0;
+}
+
+#panda4{
+  display: inline-block;
+  width: 97%;
+  height: 182px;
+  border: 6px solid #C0C0C0;
+}
+/* div que engloba las imagenes y los span */
+#modal{
+  display: block;
+}
+/* Dandole color a los párrafo */
+p{
+  color: whitesmoke;
+}
+/* Dandole estilos al los textos */
+#texto-contenedor{
+  display: block;
+  margin-left: 150px;
+  margin-top: 30px;
+}
+
+#texto1{
+  display: inline-block;
+  vertical-align: top;
+  width: 473px;
+  margin-top: 30px;
+  padding-right: 20px;
+  text-align: justify;
+  margin: 0;
+  height: 180px;
+}
+
+#texto2{
+  display: inline-block;
+  margin: 0;
+  vertical-align: top;
+  width: 473px;
+  height: 180px;
+  text-align: justify;
+}
